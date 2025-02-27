@@ -1,0 +1,202 @@
+
+	
+/* universal selector */
+* { box-sizing: border-box; } 
+
+/* body selector */
+body {
+	background-color: #FEFFEC;
+	color: #000000;
+	font-family: Georgia, Arial, sans-serif;
+	margin: 0;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+/* header element */
+header { 
+	padding: .5em;
+	background-color: #FEFFEC;
+	font-size: 1.25em;
+	font-style: italic;
+}
+/* header anchor selector */
+header a {
+	text-decoration: none;
+	transition: text-shadow 0.2s ease, color 0.2s ease;
+}
+header img {
+	float: left;
+	height: 140px;
+	padding-left: 10px;
+	
+}
+/* h1 selector */
+header h1 {
+	padding: 20px;
+	text-align: right;
+	text-shadow: 2px 1px 2px rgb(150, 103, 2);
+}
+/* seudo classes for header anchors */
+header a:link { color: #FFDE59; }
+header a:visited { color: #FFDE59; }
+header h1:hover { color: #4F772D; text-shadow: 1px 1px 2px #31572C;}
+
+/* wrapper ID */
+#wrapper {
+	background-color: #FEFFEC;
+	margin: auto;
+	padding: 10px;
+	width: 80%;
+	height: 700px;
+	flex: 1;
+}	
+
+/* nav element */
+nav {
+	background-color: #4F772D;
+	font: #000000;
+	font-size: 1.2em;
+}
+/* nav anchor */
+nav a {
+	text-decoration: none;
+}
+
+/* nav anchor seudo classes */
+nav a:link { color: #FEFFEC; }
+nav a:visited { color: #FEFFEC; }
+nav a:hover { color: #FFDE59; }
+
+/* unordered list in nav */
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	text-align: center;
+}
+
+/* nav ul list item */
+nav li {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	width: 100%;
+	margin: auto;
+}
+
+ol, ul {
+	list-style: none;
+ }
+
+/* form styling */
+
+/* required asterick class*/
+.required {
+	color: red;
+}
+
+/* header 1 and 2 */
+.ContactBox h1, h2 {
+	color: #4F772D;
+}
+
+/* table header */
+th {
+	text-align: left;
+	padding: 10px;
+}
+
+/* text area */
+textarea {
+	height: 50px;
+	width: 300px;
+}
+
+/* logo on contact page */
+.contactLogo {
+    float: right;
+    margin-left: 20px;  
+	max-width: 400px;
+}
+
+/* submit box */
+#submitBox {
+	text-align: center;
+	margin-top: 15px;
+}
+
+/* submit button */
+#submit {
+	background-color: #4F772D;
+	color: #FEFFEC;
+	padding: 8px 20px;
+	font-size: 1em;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+	cursor: pointer
+}
+
+/* hover pseudo class */
+#submit:hover {
+	background-color: #FFDE59;
+	color: #31572C; 
+	
+}
+
+/* contact box */
+.ContactBox {
+	padding-bottom: 50px;
+}
+
+/* contact box */
+.AdminBox {
+	padding-bottom: 50px;
+}
+
+/* contact table */
+.contactList table {
+	width: 100%;
+	border-collapse: collapse; 
+	margin-bottom: 10px;
+}
+  
+/* contact table header and data */
+.contactList th,
+.contactList td {
+	padding: 8px;
+	border-bottom: 1px solid #dac6bd;
+	width: 25%;
+}
+
+/* contact class */
+.contact {
+	margin-bottom: 30px;
+	border: 1px solid #4F772D;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+/* alert */
+.alert {
+	margin-top: 20px;
+	color: #4F772D;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+  }
+  
+#footer {
+	background-color: #ffde59b7;
+	color: #31572cc9;
+	text-align: center;
+	padding: 10px 0;
+	width: 100%;
+}
+
+#footerNav {
+	text-decoration: none;
+}
