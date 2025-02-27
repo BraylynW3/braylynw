@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1733683880330,
+        "clientname": "Braylyn Williams",
+        "clientemail": "bwilli78@hgtc.edu",
+        "clientphone": "843-798-1439",
+        "desiredservice": "All Over Color",
+        "desireddate": "2024-12-26",
+        "desiredtime": "13:30",
+        "desiredemployee": "Penelope Asher",
+        "clientcomments": "Prior use of box dye :(",
+        "marketingfrom": "A Friend",
+        "newslettertext": "No",
+        "newsletteremail": "Yes"
+    },
+    {
+        "id": 1733683929510,
+        "clientname": "Katelyn Scott",
+        "clientemail": "k@scott.com",
+        "clientphone": "3459877869",
+        "desiredservice": "Manicure",
+        "desireddate": "",
+        "desiredtime": "",
+        "desiredemployee": "Jamie Cole",
+        "clientcomments": "",
+        "marketingfrom": "",
+        "newslettertext": "Yes",
+        "newsletteremail": "No"
+    },
+    {
+        "id": 1733789667099,
+        "clientname": "Braylyn Williams",
+        "clientemail": "bray@gmail.com",
+        "clientphone": "8437981439",
+        "desiredservice": "Manicure",
+        "desireddate": "",
+        "desiredtime": "12:30",
+        "desiredemployee": "",
+        "clientcomments": "",
+        "marketingfrom": "Special Promotion",
+        "newslettertext": "Yes",
+        "newsletteremail": "No"
+    },
+    {
+        "id": 1733790465977,
+        "clientname": "Sam Oxedine",
+        "clientemail": "soxe@outlook.com",
+        "clientphone": "8435761021",
+        "desiredservice": "Pedicure",
+        "desireddate": "2024-12-26",
+        "desiredtime": "",
+        "desiredemployee": "Jamie Cole",
+        "clientcomments": "None",
+        "marketingfrom": "",
+        "newslettertext": "Yes",
+        "newsletteremail": "No"
+    }
+]
