@@ -33,7 +33,7 @@ var Content2 = React.createClass({
           </p>
         </div>
         <div className="image">
-          <img src="/BW_home1.jpg" alt="Portfolio Image" />
+          <img src="BW_home1.jpg" alt="Portfolio Image" />
         </div>
       </div>
         </div>
