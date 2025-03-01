@@ -1,12 +1,10 @@
-
-	
 /* universal selector */
 * { box-sizing: border-box; } 
 
 /* body selector */
 body {
-	background-color: #FEFFEC;
-	color: #000000;
+	background-color: #fbe4d9;
+	color:rgb(51, 27, 17);
 	font-family: Georgia, Arial, sans-serif;
 	margin: 0;
 	height: 100%;
@@ -14,38 +12,69 @@ body {
 	flex-direction: column;
 }
 
+.ml11 {
+	font-weight: 700;
+	font-size: 2.1em;
+	color: #a66f55;
+	
+  }
+  
+  .ml11 .text-wrapper {
+	position: relative;
+	display: inline-block;
+	padding-top: 0.1em;
+	padding-right: 0.05em;
+	padding-bottom: 0.15em;
+  }
+  
+  .ml11 .line {
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	height: 100%;
+	width: 3px;
+	background-color: #fbe4d9;
+	transform-origin: 0 50%;
+  }
+  
+  .ml11 .line1 { 
+	top: 0; 
+	left: 0;
+  }
+  
+  .ml11 .letter {
+	display: inline-block;
+	line-height: 1em;
+  }
+
 /* header element */
 header { 
-	padding: .5em;
-	background-color: #FEFFEC;
-	font-size: 1.25em;
-	font-style: italic;
+	padding: 1em; /* Increase padding */
+	background-color: #a66f55; 
+	font-size: 1.5em; /* Increase font size */
+	color: #fbe4d9; 
 }
 /* header anchor selector */
 header a {
 	text-decoration: none;
 	transition: text-shadow 0.2s ease, color 0.2s ease;
-}
-header img {
-	float: left;
-	height: 140px;
-	padding-left: 10px;
-	
+	color: #fbe4d9; 
 }
 /* h1 selector */
 header h1 {
-	padding: 20px;
-	text-align: right;
-	text-shadow: 2px 1px 2px rgb(150, 103, 2);
+	text-align: center;
+	text-shadow: 2px 1px 2px rgb(0, 0, 0);
+	margin: 0; /* Remove margin */
+	font-style: italic;
 }
-/* seudo classes for header anchors */
-header a:link { color: #FFDE59; }
-header a:visited { color: #FFDE59; }
-header h1:hover { color: #4F772D; text-shadow: 1px 1px 2px #31572C;}
+/* pseudo classes for header anchors */
+header a:link { color: #fbe4d9; }
+header a:visited { color: #fbe4d9; }
+header h1:hover { color: #fcd407; text-shadow: 1px 1px 2pxrgb(0, 0, 0);}
 
 /* wrapper ID */
 #wrapper {
-	background-color: #FEFFEC;
+	background-color: #fbe4d9;
 	margin: auto;
 	padding: 10px;
 	width: 80%;
@@ -53,21 +82,25 @@ header h1:hover { color: #4F772D; text-shadow: 1px 1px 2px #31572C;}
 	flex: 1;
 }	
 
+#content {
+	background-color:rgba(166, 111, 85, 0.07)
+}
+
 /* nav element */
 nav {
-	background-color: #4F772D;
-	font: #000000;
-	font-size: 1.2em;
+	background-color: #a66f55;
+	font-size: 1em;
 }
 /* nav anchor */
 nav a {
 	text-decoration: none;
+	color: #fbe4d9; /* Adjust text color */
 }
 
-/* nav anchor seudo classes */
-nav a:link { color: #FEFFEC; }
-nav a:visited { color: #FEFFEC; }
-nav a:hover { color: #FFDE59; }
+/* nav anchor pseudo classes */
+nav a:link { color: #fbe4d9; }
+nav a:visited { color: #fbe4d9; }
+nav a:hover { color: #fcd407; }
 
 /* unordered list in nav */
 nav ul {
@@ -75,15 +108,15 @@ nav ul {
 	padding: 0;
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
 	margin: 0;
 	text-align: center;
 }
 
 /* nav ul list item */
 nav li {
-	padding-top: .5em;
-	padding-bottom: .5em;
-	width: 100%;
+	padding: 15px;
+	width: auto; /* Adjust width to auto */
 	margin: auto;
 }
 
@@ -100,7 +133,7 @@ ol, ul {
 
 /* header 1 and 2 */
 .ContactBox h1, h2 {
-	color: #4F772D;
+	color: #a66f55;
 }
 
 /* table header */
@@ -130,8 +163,8 @@ textarea {
 
 /* submit button */
 #submit {
-	background-color: #4F772D;
-	color: #FEFFEC;
+	background-color: #a66f55;
+	color: #fbe4d9;
 	padding: 8px 20px;
 	font-size: 1em;
 	border: none;
@@ -142,7 +175,7 @@ textarea {
 
 /* hover pseudo class */
 #submit:hover {
-	background-color: #FFDE59;
+	background-color: #fcd407;
 	color: #31572C; 
 	
 }
@@ -175,7 +208,7 @@ textarea {
 /* contact class */
 .contact {
 	margin-bottom: 30px;
-	border: 1px solid #4F772D;
+	border: 1px solid #a66f55;
 	padding: 10px;
 	border-radius: 5px;
 }
@@ -183,15 +216,15 @@ textarea {
 /* alert */
 .alert {
 	margin-top: 20px;
-	color: #4F772D;
+	color: #a66f55;
 	font-size: 16px;
 	font-weight: bold;
 	text-align: center;
   }
   
 #footer {
-	background-color: #ffde59b7;
-	color: #31572cc9;
+	background-color: #a66f55;
+	color: #fbe4d9;
 	text-align: center;
 	padding: 10px 0;
 	width: 100%;
@@ -199,4 +232,171 @@ textarea {
 
 #footerNav {
 	text-decoration: none;
+}
+
+/* Sidebar navigation menu */
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #a66f55;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fbe4d9;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #fcd407;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#menuBtn {
+  font-size: 30px;
+  cursor: pointer;
+  color: #fcd407;
+  padding: 10px;
+}
+
+/* Front page layout */
+.front-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.front-page .text {
+  flex: 1;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.front-page .image {
+  flex: 1;
+  padding: 20px;
+}
+
+.front-page img {
+  max-width: 100%;
+  height: auto;
+}
+
+.front-page .image img {
+  max-width: 80%; /* Adjust the max-width to fit better */
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Center the image */
+  border-radius: 20px;
+}
+
+/* Header layout for larger screens */
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 25px;
+  }
+
+  header h1 {
+    text-align: left;
+    margin: 0;
+  }
+
+  #menuBtn {
+    display: none; /* Hide the menu button on larger screens */
+  }
+
+  nav {
+    display: block;
+  }
+
+  .sidebar {
+    display: none; /* Hide the sidebar on larger screens */
+  }
+
+  .ml11 {
+	font-weight: 700;
+	font-size: 2.1em;
+	color: #a66f55;
+  }
+  
+  .ml11 .text-wrapper {
+	position: relative;
+	display: inline-block;
+	padding-top: 0.1em;
+	padding-right: 0.05em;
+	padding-bottom: 0.15em;
+  }
+  
+  .ml11 .line {
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	height: 100%;
+	width: 3px;
+	background-color: #a66f55;
+	transform-origin: 0 50%;
+  }
+  
+  .ml11 .line1 { 
+	top: 0; 
+	left: 0;
+  }
+  
+  .ml11 .letter {
+	display: inline-block;
+	line-height: 1em;
+  }
+
+}
+
+/* Header layout for smaller screens */
+@media (max-width: 767px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 1.5em; /* Shrink font size */
+  }
+
+  nav {
+    display: none; /* Hide the nav menu on smaller screens */
+  }
+
+  #menuBtn {
+    display: block; /* Show the menu button on smaller screens */
+    position: absolute;
+    left: 10px; /* Keep the button to the left */
+    top: 10px;
+  }
+
+  .sidebar {
+    display: block; /* Show the sidebar on smaller screens */
+  }
 }

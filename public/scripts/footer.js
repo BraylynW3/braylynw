@@ -5,14 +5,8 @@ var Footer = React.createClass ({
         // return the following to the screen 
           return (
             <footer>
-                <p>&copy; 2024 Critters & Code. All rights reserved.</p>
-                <nav id="footerNav">
-                    <ul>
-                        <li><a href="privacy.html">Privacy Policy</a></li>
-                        <li><a href="terms.html">Terms of Service</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
+                <p>2025 Braylyn Williams. All rights reserved.</p>
+                
             </footer>
           );
       }
